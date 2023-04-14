@@ -15,8 +15,8 @@
 - (A) [__Brief__](#brief)
   - [__Project__](#project)
   - [__Data__](#data)
-  - [__Demo__](#demo) -> [Live Demo]()
-  - [__Study__](#problemgoal-and-solving-approach) -> [Colab]()
+  - [__Demo__](#demo) -> [Live Demo](https://ertugruldemir-winequalityclassification.hf.space)
+  - [__Study__](#problemgoal-and-solving-approach) -> [Colab](https://colab.research.google.com/drive/1wNiV1MmvNlhxrjEbNIYjyev3SK77l92y#scrollTo=DFLyUZK1oNwh)
   - [__Results__](#results)
 - (B) [__Detailed__](#Details)
   - [__Abstract__](#abstract)
@@ -46,16 +46,17 @@
   <table>
     <tr>
     <td>
-        <a target="_blank" href="" height="30"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30">[Demo app] HF Space</a>
+        <a target="_blank" href="https://ertugruldemir-winequalityclassification.hf.space" height="30"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30">[Demo app] HF Space</a>
       </td>
       <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1OAwBEcUXntxwbDg6fmjBy76lv0r04BYN
+"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
       </td>
       <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
+        <a target="_blank" href="https://github.com/ertugruldmr/WineQualityClassification/blob/main/study_downloading_instructions.txt"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
       </td>
     <td>
-        <a target="_blank" href=""><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1wNiV1MmvNlhxrjEbNIYjyev3SK77l92y#scrollTo=DFLyUZK1oNwh"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
       </td>
     </tr>
   </table>
@@ -65,11 +66,11 @@
 - Description
     - __predict The House Price__  based on features.
     - __Usage__: Set the feature values through sliding the radio buttons then use the button to predict.
-- Embedded [Demo]() window from HuggingFace Space
+- Embedded [Demo](https://ertugruldemir-winequalityclassification.hf.space) window from HuggingFace Space
     
 
 <iframe
-	src=""
+	src="https://ertugruldemir-winequalityclassification.hf.space"
 	frameborder="0"
 	width="850"
 	height="450"
@@ -177,7 +178,7 @@ The project aimed predict the wine quality score classes using the features. The
 
 |            | MaxError   | MeanAbsoluteError | MeanAbsolutePercentageError | MSE          | RMSE         | MAE          | R2          | ExplainedVariance |
 |----------- |-----------|------------------|-----------------------------|-------------|-------------|-------------|-------------|-------------------|
-| xgbr      | 10.5| 1.35         | 9.260301                   | 7.800392| 2.792918| 1.966667| 0.909766   | 0.914817          |
+| rf_reg       | 10.5     | 1.50              | 10.086696                    | 8.096471  | 2.845430  | 2.094118  | 0.906341  | 0.908946          |
 
 
 </div>
@@ -460,7 +461,7 @@ The project aimed predict the wine quality score classes using the features. The
     - Usage: Set the feature values through sliding the radio buttons and dropdown menu then use the button to predict.
   - Demo
     - The demo app in the demo_app folder as an individual project. All the requirements and dependencies are in there. You can run it anywhere if you install the requirements.txt.
-    - You can find the live demo as huggingface space in this [demo link]() as full web page or you can also us the [embedded demo widget](#demo)  in this document.  
+    - You can find the live demo as huggingface space in this [demo link](https://ertugruldemir-winequalityclassification.hf.space) as full web page or you can also us the [embedded demo widget](#demo)  in this document.  
     
 ## License
 - This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
