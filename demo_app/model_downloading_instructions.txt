@@ -1,0 +1,3 @@
+We can't push the model because  size of the model exceeded the github file limit. 
+You can download the model from this link (file name: rf_model.sav):
+	-> https://huggingface.co/spaces/ErtugrulDemir/WineQualityClassification/resolve/main/rf_model.sav

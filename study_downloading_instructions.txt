@@ -1,0 +1,4 @@
+We can't push the study.ipynb because  size of the model exceeded the github file limit. 
+You can download the model from this link (study.ipynb):
+	-> [Colab Source Code For code reading] https://colab.research.google.com/drive/1wNiV1MmvNlhxrjEbNIYjyev3SK77l92y
+	-> [File Link for download] https://drive.google.com/file/d/1wNiV1MmvNlhxrjEbNIYjyev3SK77l92y/view?usp=sharing
