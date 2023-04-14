@@ -34,7 +34,7 @@
 ## __Brief__ 
 
 ### __Project__ 
-- This is a __classification__ project that uses the  [__Wine Quality Dataset__](https://www.kaggle.com/datasets/rajyellow46/wine-quality) to __predict the wine quality class__.
+- This is a __classification__ project that uses the  [__Wine Quality Dataset__](https://www.kaggle.com/datasets/rajyellow46/wine-quality) to __predict the wine quality score class__.
 - The __goal__ is build a model that accurately __predict the wine quality score class__  based on the features. 
 - The performance of the model is evaluated using several  __metrics__, including _accuracy_, _precision_, _recall_, and _F1 score_.
 
@@ -462,7 +462,7 @@ The project aimed predict the wine quality score classes using the features. The
 
 #### __(F) Saving the project__: 
   - Saving the project and demo studies.
-    - trained model __xgbr_model.sav__ as pickle format.
+    - trained model __rf_model.sav__ as pickle format.
 #### __(G) Deployment as web demo app__: 
   - Creating Gradio Web app to Demostrate the project.Then Serving the demo via huggingface as live.
   - Desciption
