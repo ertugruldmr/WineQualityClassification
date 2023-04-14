@@ -242,10 +242,12 @@ The project aimed predict the wine quality score classes using the features. The
 ```bash
 ├── demo_app
 │   ├── app.py
+│   ├── cat_encods.json
 │   ├── component_configs.json
 │   ├── examples.pkl
+│   ├── model_downloading_instructions.txt
 │   ├── requirements.txt
-│   └── xgbr_model.sav
+│   └── rf_model.sav
 ├── docs
 │   └── images
 ├── env
@@ -253,6 +255,7 @@ The project aimed predict the wine quality score classes using the features. The
 │   └── requirements.txt
 ├── LICENSE
 ├── readme.md
+├── study_downloading_instructions.txt
 └── study.ipynb
 ```
 - Description of the files
@@ -260,9 +263,13 @@ The project aimed predict the wine quality score classes using the features. The
     - Includes the demo web app files, it has the all the requirements in the folder so it can serve on anywhere.
   - demo_app/component_configs.json :
     - It includes the web components to generate web page.
+  - demo_app/cat_encods.json
+    - It includes the encoding and decoding maps for preparing the data into model format.
   - demo_app/examples.pkl
     - It includes example cases to run the demo.
-  - demo_app/xgbr_model.sav:
+   - demo_app/model_downloading_instructions.txt
+     - The model size is exceeded the github limits. So this file includes the instructions of downloading the model from huggingface.
+  - demo_app/rf_model.sav:
     - The trained (Model Tuned) model as pickle (python object saving) format.
   - demo_app/requirements.txt
     - It includes the dependencies of the demo_app.
@@ -274,6 +281,8 @@ The project aimed predict the wine quality score classes using the features. The
     - It is the pure apache 2.0 licence. It isn't edited.
   - readme.md
     - It includes all the explanations about the project
+  - study_downloading_instructions.txt
+    - The study.ipynb size is exceeded the github file limit. So it includes the instractions for downloading or accessing the study.ipynb notebook file.
   - study.ipynb
     - It is all the studies about solving the problem which reason of the dataset existance.    
 
