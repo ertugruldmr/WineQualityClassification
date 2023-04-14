@@ -107,7 +107,7 @@ for col in feature_order:
 
 
 # creating the app
-demo_app = gr.Interface(predict, inputs, "number",examples=examples)
+demo_app = gr.Interface(predict, inputs, "label", examples=examples)
 
 # Launching the demo
 if __name__ == "__main__":
