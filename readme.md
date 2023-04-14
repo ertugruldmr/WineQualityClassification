@@ -35,7 +35,7 @@
 
 ### __Project__ 
 - This is a __classification__ project that uses the  [__Wine Quality Dataset__](https://www.kaggle.com/datasets/rajyellow46/wine-quality) to __predict the wine quality class__.
-- The __goal__ is build a model that accurately __predict the wine quality class__  based on the features. 
+- The __goal__ is build a model that accurately __predict the wine quality score class__  based on the features. 
 - The performance of the model is evaluated using several  __metrics__, including _accuracy_, _precision_, _recall_, and _F1 score_.
 
 #### __Overview__
